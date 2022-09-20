@@ -6,7 +6,8 @@ public class Chicken extends Thread {
             System.out.println("Курица");
             try {
                 Thread.sleep(1000);
-            } catch (InterruptedException a) {
+            } 
+            catch (InterruptedException a) {
                 throw new RuntimeException(a);
             }
         }
